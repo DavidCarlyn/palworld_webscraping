@@ -1,0 +1,12 @@
+name: pal-scrape
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9 
+  - requests
+  - ipykernel
+  - tqdm
+  - pip
+  - pip:
+    - beautifulsoup4
